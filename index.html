@@ -31,14 +31,14 @@
       <div id='main-menu-container' class='main-menu-container'>
         <img id='logo' class='logo' src='app/style/graphics/pacman_logo.png'>
         <button id='game-start' class='game-start'>
-          JOGAR
+          PLAY
         </button>
       </div>
 
       <div class='header-buttons'>
         <button>
           <i id='pause-button' class='material-icons'>
-            Pausar
+            pause
           </i>
         </button>
         <button>
@@ -47,7 +47,7 @@
       </div>
 
       <div id='paused-text' class='paused-text'>
-        PAUSADO
+        PAUSED
       </div>
 
       <div id='game-ui' class='game-ui'>
@@ -56,10 +56,10 @@
             <div class='one-up'>JÁ GANHOU</div>
             <div id='points-display'></div>
           </div>
-          <div class='column _50'>
-            <div class="imagemlogo"><img src="./app/style/graphics/pacman_logo.png" alt=""></div>
-            <div id='high-score-display'>R$50,00</div>
-          </div>
+          <!-- <div class='column _50'> -->
+            <div></div>
+            <div id='high-score-display'></div>
+          <!-- </div> -->
         </div>
 
         <div id='maze' class='maze'>
@@ -74,7 +74,7 @@
           <p id='blinky' class='ghost'></p>
         </div>
 
-        <div class='row bottom'>
+        <div id='bottom-row' class='row bottom'>
           <div id='extra-lives' class='extra-lives'></div>
           <div id='fruit-display' class='fruit-display'></div>
         </div>

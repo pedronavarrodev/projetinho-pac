@@ -40,7 +40,7 @@ body {
   visibility: hidden; }
 
 .header-buttons {
-  margin: 16px;
+  margin: 110px 0 0 65px;
   position: absolute;
   width: 100%; }
   .header-buttons button {
@@ -51,7 +51,7 @@ body {
     outline: none;
     padding: 0; }
     .header-buttons button .material-icons {
-      font-size: 40px; }
+      font-size: 60px; }
 
 .paused-text {
   align-items: center;
@@ -73,6 +73,7 @@ body {
   .game-ui .one-up {
     color: #ebff0d;
     animation: blink .6s infinite; 
+    padding-bottom: 5px;
   }
 
 @keyframes blink {
@@ -396,4 +397,9 @@ body {
     .imagemlogo img {
       width: 100%;
       height: 100%;
+    }
+
+    #row-top {
+      display: flex;
+      justify-content: center;
     }
