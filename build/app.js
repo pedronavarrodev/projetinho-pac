@@ -1869,7 +1869,8 @@ class GameCoordinator {
     this.pointsDisplay.innerText = 'R$' + this.points.toFixed(2);
     if (this.points > (this.highScore || 0)) {
       this.highScore = this.points;
-      this.highScoreDisplay.innerText = this.points;
+      // this.highScoreDisplay.innerText = this.points;
+      this.highScoreDisplay.innerText = '';
       localStorage.setItem('highScore', this.highScore);
     }
 
