@@ -3152,7 +3152,7 @@ class Timer {
           },
         }));
       }, this.remaining);
-
+ 
       if (!this.oldTimerId) {
         window.dispatchEvent(new CustomEvent('addTimer', {
           detail: {
